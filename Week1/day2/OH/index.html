@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav>
+            <h1>Welcome To Pet Shelter</h1>
+        </nav>
+        <img src="./images/cat.jpg" alt="A cute kitten">
+        <h2>Add your pet here:</h2>
+        <form action="#">
+            <div>
+                <label for="petName">Pet Name</label>
+                <input type="text" id="petName">
+            </div>
+            <div>
+                <label for="petType">Pet Type</label>
+                <select name="petType" id="petType">
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Bird</option>
+                    <option value="fish">Fish</option>
+                </select>
+            </div>
+            <div>
+                <label for="friendly">Friendly?</label>
+                <input type="radio" name="friendly">
+                <label>Yes</label>
+                <input type="radio" name="friendly">
+                <label>No</label>
+            </div>
+            <div>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday">
+            </div>
+            <input type="submit" value="Add">
+        </form>
+    </div>
+</body>
+</html>

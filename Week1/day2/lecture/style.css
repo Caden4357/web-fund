@@ -1,0 +1,43 @@
+/* Selecting an element by tag name */
+/* h1{
+    color:blue;
+    background-color: orange;
+} */
+/* Selecting an element by class */
+/* .red{
+    color:red;
+} */
+/* Selecting an element by id */
+/* #purple{
+    color:purple;
+}
+.bold{
+    font-weight: bold;
+    color: #A0E7E5;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    border: 2px dashed black;
+    width: 1270px;
+    /* height: 600px; */
+    margin: 0 auto;
+    padding: 20px;
+}
+p{
+    margin: 20px;
+}
+.orange{
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+a{
+    border: 2px solid red;
+    width: 200px;
+}
