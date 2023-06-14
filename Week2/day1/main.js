@@ -59,12 +59,15 @@ var studentMacy = {
 
 // * You access specific properties in an object by using the key
 // *            nameOfObject['key']
-// console.log(studentMacy['name']);
+console.log(studentMacy['name']);
 // * OR        nameOfObject.key
-// console.log(studentMacy.name);
+console.log(studentMacy.name);
 
 // * String concatenation: combining strings together using the + operator notice how we throw variables in there and it works just fine
-// console.log("Hi my name is " + studentMacy.name + " and I am " + studentMacy.age + " years old.");
+console.log("Hi my name is " + studentMacy.name + " and I am " + studentMacy.age + " years old.");
+
+// * This is how I like to do string concatenation
+console.log(`Hi my name is ${studentMacy.name} and I am ${studentMacy.age} years old.`);
 
 
 // * This is a simple but practical example of how we can we can grab elements from HTML and manipulate them
