@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-left{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid purple;
+    width: 1270px;
+    margin: 0 auto;
+    height: 800px;
+}
+.main-left{
+    border: 4px solid pink;
+    width: 600px;
+    height: 800px;
+
+}
+.main-right{
+    border: 4px solid pink;
+    width: 300px;
+    height: 800px;
+}
+
+.profile{
+    margin-bottom: 40px;
+    border: 2px solid red;
+    height: 500px;
+}
+.education{
+    border: 2px solid red;
+    height: 200px;
+}
+.connection-requests{
+    margin-bottom: 40px;
+    border: 2px solid red;
+    height: 300px;
+}
+.connections{
+    border: 2px solid red;
+    height: 400px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy's Hero Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <h1>Welcome To Billy's Hero Shop</h1>
+            <div class="nav-right">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Company</a>
+                <a href="#">Blog</a>
+                <img class="shopping-cart-icon" src="./images/shopping-cart-icon.jpg" alt="Shopping Cart Icon">
+                <span>0</span>
+                <form>
+                    <input type="text" placeholder="Search...">
+                </form>
+            </div>
+        </nav>
+        <main>
+            <h2>Featured Product</h2>
+            <img class="golden_sword_of_battle" src="./images/golden_sword_of_battle.jpg" alt="golden_sword_of_battle">
+            <h2>Golden Sword Of Battle! (AKA "Scarlet")</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum velit cupiditate mollitia omnis. Eligendi,
+                pariatur quidem nulla soluta deleniti similique unde quam mollitia id sed molestiae quos impedit quas
+                ducimus!</p>
+            <button onclick="increaseCart()">Add To Cart</button>
+            <div class="other-products">
+                <h2>Other Heroic Products</h2>
+                <div class="products">
+                    <div class="product">
+                        <img src="./images/root_sword.jpg" alt="root_sword">
+                        <p>Root Sword</p>
+                        <button onclick="increaseCart()">Add To Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="./images/demon_blood_sword.jpg" alt="demon_blood_sword">
+                        <p>Demon Blood Sword</p>
+                        <button onclick="increaseCart()">Add To Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="./images/finn_sword.jpg" alt="finn_sword">
+                        <p>Finn Sword</p>
+                        <button onclick="increaseCart()">Add To Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="./images/grass_sword.jpg" alt="grass_sword.jpg">
+                        <p>Grass Sword</p>
+                        <button onclick="increaseCart()">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h4>Copyright @ Billy The Hero 2023</h4>
+        </footer>
+    </div>
+</body>
+
+</html>
