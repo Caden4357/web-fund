@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: grey;
+}
+
+@media screen and (max-width:1000px) and (orientation:landscape){
+    .container{
+        width: 100%;
+        background-color: green;
+    }
+    h1{
+        display: none;
+    }
+}
+/* @media screen and (max-width:350px){
+    .container{
+        background-color: red;
+    }
+} */
